@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1xOkIwR+q9CraRhWFfUK093k2C0mbamJyldQz6cucBtQjxTGDAMAkF3+BrnsW89YUbKOgaxQj4X+uT0OXeZOWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VickersZhu\\source\\repos\\WpfTutorial\\WpfLecture2\\WpfLecture2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VickersZhu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

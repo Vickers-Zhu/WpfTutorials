@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfLecture2.MainWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLecture2"
+        mc:Ignorable="d"
+        Title="MainWindow2" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button Content="WPF Lecture 2" Padding="20" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="10"/>
+                    <ScaleTransform ScaleX="1.5" />
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Programming in Graphical Environment" Grid.Row="1" />
+        <Label Content="Computer Science and Information Systems" Grid.Row="1" Grid.Column="1" />
+        <Label Content="Faculty of Mathematics and Information Science" Grid.Row="2" />
+        <Label Content="Warsaw University of Technology" Grid.Row="2" Grid.Column="1" />
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\bin\Debug\WpfColorsPreview.exe.config
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\bin\Debug\WpfColorsPreview.exe
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\bin\Debug\WpfColorsPreview.pdb
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\MainWindow.g.cs
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\App.g.cs
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview_MarkupCompile.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview_MarkupCompile.lref
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\MainWindow.baml
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.g.resources
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.Properties.Resources.resources
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.csproj.GenerateResource.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.csproj.CoreCompileInputs.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.exe
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\WpfColorsPreview.pdb
+C:\Users\VickersZhu\source\repos\WpfTutorial\WpfColorsPreview\obj\Debug\GeneratedInternalTypeHelper.g.cs

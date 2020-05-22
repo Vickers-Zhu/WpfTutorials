@@ -1,0 +1,15 @@
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\bin\Debug\Wpf3DCube.exe.config
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\bin\Debug\Wpf3DCube.exe
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\bin\Debug\Wpf3DCube.pdb
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\MainWindow.g.cs
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\App.g.cs
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube_MarkupCompile.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube_MarkupCompile.lref
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\MainWindow.baml
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.g.resources
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.Properties.Resources.resources
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.csproj.GenerateResource.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.csproj.CoreCompileInputs.cache
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.exe
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.pdb
+C:\Users\VickersZhu\source\repos\WpfTutorial\Wpf3DCube\obj\Debug\Wpf3DCube.csprojAssemblyReference.cache
