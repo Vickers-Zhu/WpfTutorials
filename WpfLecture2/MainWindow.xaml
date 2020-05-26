@@ -10,13 +10,31 @@
         <ResourceDictionary>
             <local:Student x:Key="student" FirstName="Adam" LastName="Nowak" GradeAverage="4.5" />
             <local:GradeToBackgroundConverter x:Key="backgroundConverter" />
+            <DataTemplate x:Key="studentTemplate" DataType="local.Student">
+                <Border BorderThickness="3" BorderBrush="{Binding Path=GradeAverage, Converter={StaticResource backgroundConverter}}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Path=FirstName}" />
+                        <TextBlock Text="{Binding Path=LastName}" Grid.Column="1" Margin="5 0" />
+                        <TextBlock Text="{Binding Path=GradeAverage, StringFormat=Średnia: {0}}" Grid.Column="2" />
+                    </Grid>
+                </Border>
+            </DataTemplate>
         </ResourceDictionary>
     </Window.Resources>
-    <StackPanel> <!-- <StackPanel DataContext="{StaticResource ResourceKey=student}" > --> 
-        <ListBox ItemsSource="{Binding}" DisplayMemberPath="FirstName" IsSynchronizedWithCurrentItem="True" />
-        <TextBox Text="{Binding Path=\FirstName}" /> <!-- <Label Content="{Binding Source={StaticResource student}}", Path=FirstName /> -->
-        <Label Content="{Binding Path=\LastName}" Background="{Binding ElementName=lblGrade, Path=Content, Converter={StaticResource backgroundConverter}}" /> <!-- <Label Content="{Binding Source={StaticResource student}, Path=LastName}" /> -->
-        <Label Name="lblGrade" Content="{Binding Path=\GradeAverage}" Background="{Binding RelativeSource={RelativeSource Self}, Path=Content, Converter={StaticResource backgroundConverter}}" />
-        <Button Content="Randomize grades" Click="randomizeGradesClick" />
+    <StackPanel Margin="3">
+        <ListBox ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" Margin="3" ItemTemplate="{StaticResource ResourceKey=studentTemplate}" />
+        <Label Content="{Binding}" ContentTemplate="{StaticResource studentTemplate}" />
+        <TextBox Text="{Binding Path=\FirstName}" Margin="3" />
+        <TextBox Text="{Binding Path=\LastName}" Margin="3" />
+        <TextBox Text="{Binding Path=\GradeAverage, ValidatesOnExceptions=True}" Margin="3" />
+        <Button Content="Randomize grades" Click="randomizeGradesClick" Margin="3" />
     </StackPanel>
 </Window>

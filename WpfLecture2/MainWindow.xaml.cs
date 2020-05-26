@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,11 @@ namespace WpfLecture2
     {
 
         private Random rand;
-        private List<Student> students;
+        private ObservableCollection<Student> students;
         public MainWindow()
         {
             rand = new Random();
-            students = new List<Student>
+            students = new ObservableCollection<Student>
             {
                 new Student{FirstName="Ania", LastName="Nowak", GradeAverage=4.6m},
                 new Student{FirstName="Franek", LastName="Kowalski", GradeAverage=3.2m},
@@ -39,7 +40,8 @@ namespace WpfLecture2
 
         private void randomizeGradesClick(object sender, RoutedEventArgs e)
         {
-            Student s = FindResource("student") as Student;
+            var view = CollectionViewSource.GetDefaultView(students);
+            var s = view.CurrentItem as Student;
             s.GradeAverage = rand.Next(200, 500) / 100.0m;
         }
     }

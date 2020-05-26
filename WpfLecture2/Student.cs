@@ -2,12 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using System.Text;
+using System.Windows.Controls;
 
 namespace WpfLecture2
-{
+{ 
     class Student : INotifyPropertyChanged, INotifyDataErrorInfo
     {
         private string firstName;
@@ -41,7 +43,7 @@ namespace WpfLecture2
             get => gradeAverage;
             set
             {
-                /*if (gradeAverage < 2 || gradeAverage > 5)
+                /*if (value < 2 || value > 5)
                     throw new ArgumentOutOfRangeException("value", "Grade average must be between 2 and 5");*/
                 if (gradeAverage == value)
                     return;
@@ -60,7 +62,7 @@ namespace WpfLecture2
 
         public IEnumerable GetErrors(string propertyName)
         {
-            if (!string.IsNullOrEmpty(propertyName) || propertyName != "GradeAverage")
+            if (!string.IsNullOrEmpty(propertyName) && propertyName != "GradeAverage")
                 yield break;
             if (GradeAverage < 2.0m)
                 yield return "Grade average cannot be less than 2.0";

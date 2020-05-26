@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VickersZhu\\source\\repos\\WpfTutorial\\WpfLecture2\\WpfLecture2.csproj",
+      "projectUniqueName": "C:\\Users\\VickersZhu\\Documents\\GitHub\\WpfTutorials\\WpfLecture2\\WpfLecture2.csproj",
       "projectName": "WpfLecture2",
-      "projectPath": "C:\\Users\\VickersZhu\\source\\repos\\WpfTutorial\\WpfLecture2\\WpfLecture2.csproj",
+      "projectPath": "C:\\Users\\VickersZhu\\Documents\\GitHub\\WpfTutorials\\WpfLecture2\\WpfLecture2.csproj",
       "packagesPath": "C:\\Users\\VickersZhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VickersZhu\\source\\repos\\WpfTutorial\\WpfLecture2\\obj\\",
+      "outputPath": "C:\\Users\\VickersZhu\\Documents\\GitHub\\WpfTutorials\\WpfLecture2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
