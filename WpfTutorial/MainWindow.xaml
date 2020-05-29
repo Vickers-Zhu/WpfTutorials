@@ -27,6 +27,7 @@
             <TextBox Name = "secondTextBox" Grid.Column ="2" Text ="0"/>
             <Button Name = "resultButton" Grid.Column ="3" Content ="Result" Click="ResultButton_Click"/>
         </Grid>
-        <TextBlock Name ="resultBlock" HorizontalAlignment ="Center"                    FontSize ="16" FontWeight ="Bold" />
+        <TextBlock Name ="resultBlock" HorizontalAlignment ="Center" 
+                   FontSize ="16" FontWeight ="Bold" />
     </StackPanel>
 </Window>
